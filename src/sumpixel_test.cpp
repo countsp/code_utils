@@ -81,7 +81,7 @@ void
 test1( )
 {
     Mat img;
-    Mat img1 = imread( "/home/gao/IMG_1.png", CV_LOAD_IMAGE_GRAYSCALE );
+    Mat img1 = imread( "/home/gao/IMG_1.png", cv::IMREAD_GRAYSCALE );
 
     sys_utils::tic::TicTocPart time;
 
@@ -104,7 +104,7 @@ void
 test2( )
 {
     Mat img;
-    Mat img1 = imread( "/home/gao/IMG_1.png", CV_LOAD_IMAGE_GRAYSCALE );
+    Mat img1 = imread( "/home/gao/IMG_1.png", cv::IMREAD_GRAYSCALE );
 
     sys_utils::tic::TicTocPart time;
 
