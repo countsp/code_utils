@@ -1,6 +1,10 @@
 # 编译报错
 
-1. fatal error: backward.hpp: 没有那个文件或目录 #include “backward.hpp”
+1.
+
+```
+fatal error: backward.hpp: 没有那个文件或目录 #include “backward.hpp”
+```
 
 **解决办法：**
 
