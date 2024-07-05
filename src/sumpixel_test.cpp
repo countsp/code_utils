@@ -91,7 +91,7 @@ test1( )
     std::cout << "sumPixelRow cost " << time.toc( ) << " ms\n";
 
     cv::Mat img2;
-    normalize( img, img2, 0, 255, CV_MINMAX );
+    normalize( img, img2, 0, 255, cv::NORM_MINMAX );
     Mat imageIntegralNorm;
     convertScaleAbs( img2, imageIntegralNorm );
 
@@ -114,7 +114,7 @@ test2( )
     std::cout << "sumPixelRow cost " << time.toc( ) << " ms\n";
 
     cv::Mat img2;
-    normalize( img, img2, 0, 255, CV_MINMAX );
+    normalize( img, img2, 0, 255, cv::NORM_MINMAX );
     Mat imageIntegralNorm;
     convertScaleAbs( img2, imageIntegralNorm );
 
